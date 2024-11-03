@@ -60,6 +60,9 @@ words = [
     "uncle", "upset", "urban", "usual", "valid", "value", "vapor", "viola", "voice", "voter",
     "waste", "watch", "wheel", "whisk", "wince", "witty", "world", "write", "yield", "zebra"
 ]
+
+#ANSI color codes may not work on some ide's
+
 def game():
     count=0
     guess=str.upper(random.choice(words))
